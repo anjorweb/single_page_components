@@ -1,0 +1,89 @@
+.clearFix::after {
+    content: '';
+    display: block;
+    width: 100%;
+    clear: both;
+    font-size: 0;
+    overflow: hidden;
+    height: 0;
+}
+.tac {
+    text-align: center;
+}
+html {
+    font-size:50px
+}
+@media screen and (min-width:320px) {
+    html {
+        font-size:42.66px
+    }
+}
+@media screen and (min-width:360px) {
+    html {
+        font-size:48px
+    }
+}
+@media screen and (min-width:400px) {
+    html {
+        font-size:53.33px
+    }
+}
+@media screen and (min-width:440px) {
+    html {
+        font-size:58.66px
+    }
+}
+@media screen and (min-width:480px) {
+    html {
+        font-size:64px
+    }
+}
+@media screen and (width:320px) {
+    html {
+        font-size:42.66px
+    }
+}
+@media screen and (width:375px) {
+    html {
+        font-size:50px
+    }
+}
+@media screen and (width:360px) {
+    html {
+        font-size:48px
+    }
+}
+@media screen and (width:384px) {
+    html {
+        font-size:51.2px
+    }
+}
+@media screen and (width:400px) {
+    html {
+        font-size:53.33px
+    }
+}
+@media screen and (width:414px) {
+    html {
+        font-size:55.2px
+    }
+}
+/***复选框*/
+.check_box {
+    color: #8f8f8f;
+    text-align: center;
+}
+.check_box label {
+    display: inline-block;
+}
+.check_box input {
+    opacity: 0;
+    display: none;
+    width: 0;
+    height: 0;
+}
+.check_box input + p {
+    white-space: nowrap;
+    padding-left: 0.45rem;
+    background-size: 0.39rem auto;
+}
